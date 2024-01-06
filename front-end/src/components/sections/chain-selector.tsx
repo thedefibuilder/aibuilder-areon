@@ -54,11 +54,6 @@ export default function ChainSelectorSection({
       }}
     >
       <div className='flex flex-col'>
-        <Button className=' mb-1 h-auto w-fit bg-transparent p-0 text-[16px] font-normal text-text500 hover:bg-transparent'>
-          <img src={ArrowLeft} alt='' className='h-18 m-w-18 mr-2' />
-          Back
-        </Button>
-
         <h2 className='mb-2 text-[26px] font-semibold md:text-4xl'>
           {selectedChain === '' ? chainsData[selectedChainIndex]?.chainName : selectedChain} AI
           Builder

@@ -32,7 +32,7 @@ export default function EVMPage({ chainsDataState }: IEVMPage) {
   const [evmChains, setEVMChains] = useState<IChain[]>();
 
   useEffect(() => {
-    setSelectedChain('Arbitrum');
+    setSelectedChain('Areon');
   }, [setSelectedChain]);
 
   useEffect(() => {
