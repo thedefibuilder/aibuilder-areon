@@ -4,19 +4,19 @@ import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi/react';
 import { WagmiConfig } from 'wagmi';
 import { arbitrum, bsc, gnosis, linea, mainnet, polygon, polygonZkEvm, zkSync } from 'wagmi/chains';
 
+import { areonNetwork } from '@/chains/areon-network';
 import { lightLink } from '@/chains/light-link';
-import { modeNetwork } from '@/chains/mode-network';
 
 interface IEVMDAppProvider extends PropsWithChildren {}
 
 const chains = [
   arbitrum,
+  areonNetwork,
   bsc,
   mainnet,
   gnosis,
   lightLink,
   linea,
-  modeNetwork,
   polygon,
   polygonZkEvm,
   zkSync
