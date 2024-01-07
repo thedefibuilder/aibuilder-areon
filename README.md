@@ -21,7 +21,7 @@ Defi Builder AI integrates advanced AI capabilities to enhance EVM smart contrac
 
 ![TechStack Scheme](./training-data/data-logic.jpg 'Architecture')
 
-🚀 Try it now: [Defi Builder AI](https://alliance.defibuilder.com)
+🚀 Try it now: [Defi Builder AI](https://areon.defibuilder.com)
 
 Defi BUilder's AI system is a sophisticated ensemble of components, each designed to ensure the security, efficiency, and reliability of Ethereum smart contracts. The system comprises three main elements: the AI Generator Agent, the Builder Backend, and the AI Auditor Backend.
 
